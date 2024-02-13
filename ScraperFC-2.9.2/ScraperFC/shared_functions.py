@@ -385,6 +385,7 @@ def get_source_comp_info(year, league, source):
             "Brasileirao": {"first valid year": 2001,},
             "Argentina Liga Profesional": {"first valid year": 2015,},
             "MLS": {"first valid year": 1996,},
+            "Chile Campeonato Profesional": {"first valid year": 2018,}
         },
         "Oddsportal": {
             "EPL": {

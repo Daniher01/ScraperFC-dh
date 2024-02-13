@@ -1,7 +1,6 @@
 import ScraperFC as sfc
 import traceback
-import pandas as pd
-from io import StringIO
+
 
 # Initialize the FBRef scraper
 scraper = sfc.FBRef()
