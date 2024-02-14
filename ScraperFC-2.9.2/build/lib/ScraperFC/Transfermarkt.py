@@ -35,7 +35,7 @@ class Transfermarkt():
         soup = BeautifulSoup(self.driver.page_source, 'html.parser')
         accept_all_button = self.driver.find_element(
             By.XPATH,
-            xpath_soup(soup.find('button', {'aria-label': 'ACCEPT ALL'}))
+            xpath_soup(soup.find('button', {'aria-label': 'Accept & continue'}))
         )
         self.driver.execute_script('arguments[0].click()', accept_all_button)
         # Switch back to the main window
@@ -96,7 +96,8 @@ class Transfermarkt():
             'Russian Premier League': 'https://www.transfermarkt.us/premier-liga/startseite/wettbewerb/RU1',
             'Brasileirao': 'https://www.transfermarkt.us/campeonato-brasileiro-serie-a/startseite/wettbewerb/BRA1',
             'Argentina Liga Profesional': 'https://www.transfermarkt.us/superliga/startseite/wettbewerb/AR1N',
-            'MLS': 'https://www.transfermarkt.us/major-league-soccer/startseite/wettbewerb/MLS1'
+            'MLS': 'https://www.transfermarkt.us/major-league-soccer/startseite/wettbewerb/MLS1',
+            'Chile Campeonato Profesional': 'https://www.transfermarkt.es/primera-division-de-chile/startseite/wettbewerb/CLPD'
         }
         
         # Go to the selected year
