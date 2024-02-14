@@ -529,6 +529,78 @@ def get_source_comp_info(year, league, source):
                     "2023": 47644,
                 },
             },
+            "Argentina Primera Nacional": {
+                "id": 703,
+                "seasons": {
+                    "2023": 48079
+                },
+            },
+            "Brasileirão Série A": {
+                "id": 325,
+                "seasons": {
+                    "20/21":27591, "2021": 36166, "2022": 40557, "2023": 48982
+                },
+            },
+            "Bolivia Division Profesional": {
+                "id": 16736,
+                "seasons": {
+                    "2023": 48353
+                },
+            },
+            "Chile Primera Division": {
+                "id": 11653,
+                "seasons": {
+                    "2023": 48017
+                }
+            },
+            "Colombia Primera A Apertura": {
+                "id": 11539,
+                "seasons": {
+                    "2022": 40320, "2023": 48283, "2024": 57374
+                },
+            },
+            "Colombia Primera A Clausura": {
+                "id": 11536,
+                "seasons": {
+                    "2022": 42387, "2023": 52847
+                },
+            },
+            "Ecuador LigaPro": {
+                "id": 240,
+                "seasons": {
+                    "2022": 40503, "2023": 48720
+                },
+            },
+            "Mexico LigaMX Apertura": {
+                "id": 11621,
+                "seasons": {
+                    "2022": 42017, "2023": 52052
+                },
+            },
+            "Mexico LigaMX Clausura": {
+                "id": 11620,
+                "seasons": {
+                    "2022": 40080, "2023": 47656, "2024": 57315
+                },
+            },
+            "Peru Liga 1": {
+                "id": 406,
+                "seasons": {
+                    "2022": 40118, "2023": 48078, "2024": 57741
+                },
+            },
+            "Uruguay Primera Division": {
+                "id": 278,
+                "seasons": {
+                    "2023": 48634,
+                },
+            },
+            "Venezuela Primera Division": {
+                "id": 231,
+                "seasons": {
+                    "2023": 48742, "2024": 57694
+                },
+            },
             # USA
             "MLS": {},
             "USL Championship": {
