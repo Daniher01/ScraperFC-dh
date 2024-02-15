@@ -97,7 +97,7 @@ class Transfermarkt():
             'Brasileirao': 'https://www.transfermarkt.us/campeonato-brasileiro-serie-a/startseite/wettbewerb/BRA1',
             'Argentina Liga Profesional': 'https://www.transfermarkt.us/superliga/startseite/wettbewerb/AR1N',
             'MLS': 'https://www.transfermarkt.us/major-league-soccer/startseite/wettbewerb/MLS1',
-            'Chile Campeonato Profesional': 'https://www.transfermarkt.es/primera-division-de-chile/startseite/wettbewerb/CLPD'
+            'Chile Campeonato Profesional': 'https://www.transfermarkt.us/primera-division-de-chile/startseite/wettbewerb/CLPD'
         }
         
         # Go to the selected year
