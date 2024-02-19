@@ -46,7 +46,7 @@ class Sofascore:
             'dribbledPast', 'bigChancesMissed', 'totalShots', 'shotsOnTarget',
             'blockedShots', 'goalConversionPercentage', 'hitWoodwork', 
             'offsides', 'expectedGoals', 'errorLeadToGoal', 'errorLeadToShot',
-            'passToAssist', 'rating'
+            'passToAssist', 'rating', 'minutesplayed'
         ]
         self.concatenated_fields = "%2C".join(self.league_stats_fields)
     
