@@ -50,7 +50,7 @@ class Understat:
             URL to the Understat page of the chosen league season.
         """
         lg = league.replace(" ","_")
-        url = f"https://understat.com/league/{lg}/{str(year-1)}"
+        url = f"https://understat.com/league/{lg}/{str(year)}"
         return url
         
         
