@@ -34,7 +34,7 @@ class Sofascore:
             'aerialDuelsWonPercentage', 'successfulDribbles',
             'successfulDribblesPercentage', 'tackles', 'assists',
             'accuratePassesPercentage', 'totalDuelsWon', 
-            'totalDuelsWonPercentage', 'minutesPlayed', 'wasFouled', 'fouls',
+            'totalDuelsWonPercentage', 'wasFouled', 'fouls',
             'dispossessed', 'possesionLost', 'appearances', 'started', 'saves',
             'cleanSheets', 'savedShotsFromInsideTheBox', 
             'savedShotsFromOutsideTheBox', 'goalsConcededInsideTheBox',
